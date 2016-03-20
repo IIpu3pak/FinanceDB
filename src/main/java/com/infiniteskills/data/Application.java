@@ -14,7 +14,6 @@ public class Application {
 	public static void main(String[] args) {
 		
 		/* Configuration */
-
 		Configuration configuration = new Configuration();
 
 		configuration.addAnnotatedClass(AccountType.class);

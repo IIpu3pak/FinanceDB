@@ -8,7 +8,7 @@ import java.util.Date;
 public class AccountType {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ACCOUNT_TYPE_ID")
 	private Long accountTypeId;
 
