@@ -29,7 +29,8 @@ public class Bank {
 
     @Column(name = "ZIP_CODE")
     private String zipCode;
-	
+
+	@Column(name = "IS_INTERNATIONAL")
 	private boolean isInternatinal;
 
     @Column(name = "LAST_UPDATE_DATE")
