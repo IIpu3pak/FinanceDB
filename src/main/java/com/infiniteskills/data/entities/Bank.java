@@ -16,6 +16,8 @@ public class Bank {
 
 	private String state;
 
+	private boolean isInternatinal;
+
 	private String zipCode;
 
 	private Date lastUpdatedDate;
@@ -72,6 +74,14 @@ public class Bank {
 
 	public void setState(String state) {
 		this.state = state;
+	}
+
+	public boolean isInternatinal() {
+		return isInternatinal;
+	}
+
+	public void setInternatinal(boolean internatinal) {
+		isInternatinal = internatinal;
 	}
 
 	public String getZipCode() {

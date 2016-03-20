@@ -1,11 +1,10 @@
 package com.infiniteskills.data;
 
-import java.util.Calendar;
-import java.util.Date;
-
+import com.infiniteskills.data.entities.User;
 import org.hibernate.Session;
 
-import com.infiniteskills.data.entities.User;
+import java.util.Calendar;
+import java.util.Date;
 
 public class Application {
 
